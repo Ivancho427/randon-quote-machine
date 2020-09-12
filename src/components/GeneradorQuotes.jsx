@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-const Quotes = () => {
+const GeneradorQuotes = () => {
     const [quote, setQuote] = useState('');
     const [author, setAuthor] = useState('');
 
@@ -38,4 +38,4 @@ const Quotes = () => {
     )
 }
 
-export default Quotes;
+export default GeneradorQuotes;

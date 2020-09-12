@@ -1,12 +1,12 @@
 import React from 'react';
-import Quotes from './components/Quotes'
-import './App.css';
+import GeneradorQuotes from './components/GeneradorQuotes'
+import './components/style.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Quotes />
+      <GeneradorQuotes />
      
     </div>
   );
